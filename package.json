@@ -1,0 +1,16 @@
+{
+	"name": "landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"node-sass": "node-sass -w scss -o dist/css"
+	},
+	"keywords": [],
+	"author": "Ayebogbon Stephen Orowole",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^6.0.1"
+	}
+}

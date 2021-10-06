@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+:root {
+  --orange-color: #ff6200;
+  --tangaroa-color: #07223f; }
+
+.btn-orange,
+.btn-border-orange,
+.header-paragraph {
+  font-family: 'Montserrat', sans-serif; }
+
+.header-title,
+.inner-text,
+.outer-text,
+.trust-text,
+.brand-text {
+  font-family: 'Bebas Neue', cursive; }
+
+.btn-orange,
+.btn-border-orange {
+  width: 140px;
+  height: 30px;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: var(--orange-color); }
+
+.btn-border-orange {
+  background-color: inherit;
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color); }
+
+.bg-orange {
+  background-color: var(--orange-color); }
+
+.text-orange {
+  color: var(--orange-color); }
+
+.text-tangaroa {
+  color: var(--tangaroa-color); }
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/Header_Home_Desktop.jpg") no-repeat left top/cover; }
+
+.navbar-dark .navbar-toggler-icon {
+  background: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.08px;
+  margin: 0 11px; }
+
+.navbar .navbar-brand {
+  justify-self: flex-start; }
+
+.navbar .navbar-nav {
+  justify-self: flex-end; }
+
+.menu-btn {
+  margin-left: 11px; }
+
+.header-content {
+  margin-top: 140px; }
+
+.header-title {
+  font-size: 86px;
+  letter-spacing: 0.48px; }
+
+.header-content .header-paragraph {
+  font-size: 12px;
+  letter-spacing: 0.11px;
+  color: #818181;
+  line-height: 24px; }
+
+.qustn {
+  margin-top: -80px; }
+
+.qustn-text {
+  margin-right: 10rem; }
+
+.inner-text {
+  font-size: 120px;
+  color: #ced3d2;
+  letter-spacing: 0.36px; }
+
+.outer-text {
+  position: absolute;
+  font-size: 40px;
+  color: #07223f;
+  font-weight: bold;
+  letter-spacing: 0.55px;
+  margin-top: 3.5rem;
+  margin-left: 1.2rem; }
+
+.message {
+  width: 30px;
+  height: 30px; }
+
+.message-us {
+  margin-top: 4rem; }
+
+#slider {
+  margin-top: -30px; }
+
+.slider-container {
+  margin-top: 5rem; }
+
+.slide1,
+.slide2,
+.slide3 {
+  width: 400px;
+  height: 300px; }
+
+.slider-container .slide1 {
+  background: url("../img/Slide_1_Desktop.png") no-repeat center center/cover; }
+
+.slider-container .slide2 {
+  background: url("../img/growth_in_sale.png") no-repeat center center/cover; }
+
+.slider-container .slide3 {
+  background: url("../img/office_work.png") no-repeat center center/cover; }
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none; }
+
+.slick-dots li {
+  padding: 0.5rem; }
+
+.slick-dots li button {
+  width: 5px;
+  height: 15px;
+  border: 2px solid var(--tangaroa-color);
+  border-radius: 50%; }
+
+.slick-dots li button:hover {
+  background-color: var(--orange-color); }
+
+.brand-text {
+  position: absolute;
+  color: var(--tangaroa-color);
+  font-size: 25px;
+  z-index: 100;
+  margin-left: 5rem;
+  margin-top: 2.6rem; }
+
+.trust-text {
+  color: var(--tangaroa-color);
+  opacity: 0.2;
+  font-size: 80px; }
+
+@media screen and (max-width: 982px) {
+  .navbar-brand img {
+    width: 100px; }
+  .qustn {
+    margin-top: -60px; }
+  .qustn-text {
+    margin-right: 3rem; }
+  .inner-text {
+    font-size: 80px; }
+  .outer-text {
+    font-size: 60px;
+    margin-top: 3rem; }
+  .message-us {
+    margin-top: 2rem; } }
+
+@media screen and (max-width: 1199px) {
+  .navbar-brand img {
+    width: 180px; }
+  .navbar .navbar-nav {
+    background-color: #07223f91;
+    padding: 1rem;
+    border-radius: 5px; }
+  .menu-btn {
+    margin-left: 0; }
+  .qustn {
+    margin-top: -10px; }
+  .qustn-text {
+    margin-right: 5rem; }
+  .inner-text {
+    font-size: 100px; }
+  .outer-text {
+    font-size: 33px;
+    margin-top: 2.8rem; } }
+
+@media screen and (max-width: 768px) and (min-width: 649px) {
+  .navbar-brand img {
+    width: 70px; } }
+
+@media screen and (max-width: 650px) {
+  header {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/Header_Home_Mobile.jpg") no-repeat right top/cover; }
+  .header-content {
+    margin-top: 540px;
+    text-justify: center; }
+  .slide1,
+  .slide2,
+  .slide3 {
+    width: 280px;
+    height: 230px; }
+  .slider-container .slide1 {
+    background: url("../img/Slide_1_Desktop_mobile.png") no-repeat center center/cover; }
+  .slider-container .slide2 {
+    background: url("../img/growth_in_sale_mobile.png") no-repeat center center/cover; }
+  .slider-container .slide3 {
+    background: url("../img/office_work_mobile.png") no-repeat center center/cover; }
+  .qustn {
+    margin-top: 275px; }
+  .inner-text {
+    font-size: 55px; }
+  .outer-text {
+    font-size: 15px;
+    margin-top: 1.5rem;
+    margin-left: 1rem; } }
+
+@media screen and (max-width: 330px) {
+  .qustn {
+    margin-top: 400px; }
+  .inner-text {
+    font-size: 48px; } }
